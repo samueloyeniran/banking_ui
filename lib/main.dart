@@ -1,4 +1,4 @@
-import 'package:banking_ui/homePage.dart';
+import 'package:banking_ui/screens/pageview1.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: homepage(),
+        home: Pageview1 (),
       ),
     );
   }
