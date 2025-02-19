@@ -1,6 +1,8 @@
-import 'package:banking_ui/screens/screen1.dart';
-import 'package:banking_ui/screens/screen2.dart';
-import 'package:banking_ui/screens/screen3.dart';
+import 'package:banking_ui/splashScreens/screen1.dart';
+import 'package:banking_ui/splashScreens/screen2.dart';
+import 'package:banking_ui/splashScreens/screen3.dart';
+import 'package:banking_ui/splashScreens/screen4.dart';
+import 'package:banking_ui/splashScreens/screen5.dart';
 import 'package:flutter/material.dart';
 
 class Pageview1 extends StatefulWidget {
@@ -11,11 +13,13 @@ class Pageview1 extends StatefulWidget {
 }
 
 class _Pageview1State extends State<Pageview1> {
-  int activePage = 0;
+  int activePage = 5;
   List<Widget> pages = [
     Screen1(),
     Screen2(),
     Screen3(),
+    Screen4(),
+    Screen5(),
   ];
 
   @override
@@ -24,7 +28,7 @@ class _Pageview1State extends State<Pageview1> {
       body: Stack(
         children: [
           PageView.builder(itemBuilder: (BuildContext context, int index) {
-            return pages[index% pages.length];
+            return pages[index % pages.length];
           })
         ],
       ),

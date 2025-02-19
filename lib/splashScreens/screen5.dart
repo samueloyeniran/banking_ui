@@ -11,7 +11,7 @@ class _Screen5State extends State<Screen5> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.blue,
+      color: Colors.white,
     );
   }
 }

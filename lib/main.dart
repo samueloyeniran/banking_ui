@@ -1,4 +1,4 @@
-import 'package:banking_ui/screens/pageview1.dart';
+import 'package:banking_ui/splashScreens/pageview1.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
