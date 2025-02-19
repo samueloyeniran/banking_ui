@@ -11,7 +11,7 @@ class _Screen2State extends State<Screen2> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: const Color.fromARGB(255, 26, 54, 77),
+      color: Colors.white,
     );
   }
 }
