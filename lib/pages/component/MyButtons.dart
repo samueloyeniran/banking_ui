@@ -16,7 +16,7 @@ class MyButton extends StatelessWidget {
       onTap: onTap,
       child: Container(
         decoration: BoxDecoration(
-          color: const Color.fromARGB(255, 117, 132, 194),
+          color: const Color(0xFF051663),
           borderRadius: BorderRadius.circular(15),
         ),
         width: 161,
@@ -28,7 +28,7 @@ class MyButton extends StatelessWidget {
               fontSize: 20,
               fontWeight: FontWeight.bold,
               color: const Color(
-                0xFF151940,
+                0xFFFFFFFF,
               ),
             ),
           ),
