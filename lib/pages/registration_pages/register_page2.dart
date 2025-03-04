@@ -1,25 +1,26 @@
-import 'package:banking_ui/pages/component/MyButtons.dart';
-import 'package:banking_ui/pages/component/myButton2.dart';
-import 'package:banking_ui/pages/component/myTextField.dart';
-import 'package:banking_ui/pages/registration_pages/register_page2.dart';
 import 'package:flutter/material.dart';
 
-class RegistrationPage1 extends StatefulWidget {
-  const RegistrationPage1({super.key});
+import '../component/MyButtons.dart';
+import '../component/myButton2.dart';
+import '../component/myTextField.dart';
+
+class RegisterPage2 extends StatefulWidget {
+  const RegisterPage2({super.key});
 
   @override
-  State<RegistrationPage1> createState() => _RegistrationPage1State();
+  State<RegisterPage2> createState() => _RegisterPage2State();
 }
 
-class _RegistrationPage1State extends State<RegistrationPage1> {
+class _RegisterPage2State extends State<RegisterPage2> {
   bool isChecked = false;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
         child: Container(
           padding: EdgeInsets.only(
-            top: 70,
+            top: 100,
             left: 30,
             right: 30,
           ),

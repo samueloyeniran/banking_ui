@@ -19,7 +19,7 @@ class MyButton extends StatelessWidget {
           color: const Color(0xFF051663),
           borderRadius: BorderRadius.circular(15),
         ),
-        width: 161,
+        width: MediaQuery.of(context).size.width / 2.5,
         height: 53,
         child: Center(
           child: Text(

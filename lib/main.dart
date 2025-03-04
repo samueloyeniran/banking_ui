@@ -1,4 +1,5 @@
 import 'package:banking_ui/pages/registration_page1.dart';
+import 'package:banking_ui/pages/registration_pages/registerPage3.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: RegistrationPage1(),
+        home: Registerpage3(),
       ),
     );
   }

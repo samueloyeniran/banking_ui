@@ -20,7 +20,7 @@ class _Mybutton2State extends State<Mybutton2> {
     return GestureDetector(
       onTap: widget.onTap,
       child: Container(
-        height: 60,
+        height: 56,
         width: MediaQuery.of(context).size.width,
         //margin: EdgeInsets.symmetric(horizontal: 25),
         decoration: BoxDecoration(
